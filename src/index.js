@@ -10,10 +10,11 @@ import { Provider } from "react-redux";
 // Import Redux thunk
 import thunk from "redux-thunk";
 
+const composeEnchancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 const store = createStore(
   rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-  thunk
+  composeEnchancer(applyMiddleware(thunk))
 );
 
 ReactDOM.render(
