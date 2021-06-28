@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 // Components and pages
-import Home from './pages/Home';
-import GlobalStyles from './components/GlobalStyles';
+import Home from "./pages/Home";
+import GlobalStyles from "./components/GlobalStyles";
 
 function App() {
   return (

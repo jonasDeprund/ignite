@@ -1,12 +1,12 @@
-import react, { useEffect } from 'react';
+import react, { useEffect } from "react";
 // Redux
-import { useDispatch, useSelector } from 'react-redux';
-import { loadGames } from '../actions/gamesAction';
+import { useDispatch, useSelector } from "react-redux";
+import { loadGames } from "../actions/gamesAction";
 // Components
-import Game from '../components/Game';
+import Game from "../components/Game";
 // Style and animation
-import styled from 'styled-components';
-import { motion } from 'framer-motion';
+import styled from "styled-components";
+import { motion } from "framer-motion";
 
 const Home = () => {
   // Fetch games

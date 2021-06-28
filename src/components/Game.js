@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 // Style and animation
-import styled from 'styled-components';
-import { motion } from 'framer-motion';
+import styled from "styled-components";
+import { motion } from "framer-motion";
 
 const Game = ({ name, released, image }) => {
   return (
