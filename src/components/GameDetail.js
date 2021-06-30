@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 //Styling and Animation
-import styled from "styled-components";
-import { motion } from "framer-motion";
+import styled from 'styled-components';
+import { motion } from 'framer-motion';
 //Redux
-import { useSelector } from "react-redux";
+import { useSelector } from 'react-redux';
 
 const GameDetail = () => {
   //Data
