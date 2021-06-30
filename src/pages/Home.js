@@ -1,4 +1,5 @@
 import react, { useEffect } from "react";
+import GameDetail from '../components/GameDetail'
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { loadGames } from "../actions/gamesAction";
