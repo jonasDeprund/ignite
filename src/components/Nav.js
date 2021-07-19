@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import logo from '../img/logo.svg';
+// Rdeux and routes
+import { fetchSearch } from '../actions/gamesAction';
+import { useDispatch } from 'react-redux';
 
 const Nav = () => {
   return (
@@ -10,10 +13,10 @@ const Nav = () => {
         <img src={logo} alt="logo" />
         <h1>Ignite</h1>
       </Logo>
-      <div className="search">
+      <form className="search">
         <input type="text" />
-        <button>Search</button>
-      </div>
+        <button type="submit">Search</button>
+      </form>
     </StyledNav>
   );
 };
