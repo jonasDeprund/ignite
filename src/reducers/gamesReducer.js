@@ -20,7 +20,7 @@ const gameReducer = (state = initState, action) => {
         ...state,
         searched: action.payload.searched,
       };
-    case 'CLEAR_SEARCH':
+    case 'CLEAR_SEARCHED':
       return {
         ...state,
         searched: [],
